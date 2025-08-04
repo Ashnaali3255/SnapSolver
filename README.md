@@ -126,7 +126,7 @@ git clone: https://github.com/Ashnaali3255/SnapSolver.git
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
   ## 🚀 Live Demo <a name="Live-Demo"></a>
-  Live Demo: https://math-magician-76cw.onrender.com 
+  Live Demo: https://ashnaali3255.github.io/SnapSolver/
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
   
