@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SnapSolver Calculator</title>
+  <link href="style.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center min-h-screen">
+  <div class="w-full max-w-sm bg-gray-800 rounded-xl shadow-lg p-6 space-y-4">
+    <h1 class="text-2xl font-bold text-center">SnapSolver Calculator</h1>
+    
+    <input
+      id="display"
+      type="text"
+      class="w-full p-3 text-xl bg-gray-700 rounded-lg outline-none"
+      placeholder="0"
+      disabled
+    />
+
+    <div class="grid grid-cols-4 gap-4">
+      <button class="btn" data-value="7">7</button>
+      <button class="btn" data-value="8">8</button>
+      <button class="btn" data-value="9">9</button>
+      <button class="btn op" data-value="/">÷</button>
+
+      <button class="btn" data-value="4">4</button>
+      <button class="btn" data-value="5">5</button>
+      <button class="btn" data-value="6">6</button>
+      <button class="btn op" data-value="*">×</button>
+
+      <button class="btn" data-value="1">1</button>
+      <button class="btn" data-value="2">2</button>
+      <button class="btn" data-value="3">3</button>
+      <button class="btn op" data-value="-">−</button>
+
+      <button class="btn" data-value="0">0</button>
+      <button class="btn" data-value=".">.</button>
+      <button class="btn op" data-value="+">+</button>
+      <button class="btn op" data-value="=">=</button>
+    </div>
+
+    <div class="flex justify-between gap-2 mt-2">
+      <button id="clear" class="bg-red-600 w-full p-2 rounded-lg">AC</button>
+      <button id="erase" class="bg-yellow-600 w-full p-2 rounded-lg">⌫</button>
+    </div>
+
+    <div id="history" class="bg-gray-700 rounded-lg p-3 mt-3 max-h-40 overflow-y-auto text-sm">
+      <p class="text-gray-400 italic">History:</p>
+    </div>
+
+    <div class="flex justify-center mt-4">
+      <button
+        id="clearHistoryBtn"
+        class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg shadow-md"
+      >
+        🗑️ Clear History
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
