@@ -1,5 +1,3 @@
-# SnapSolver
-SnapSolver is a real-time calculator built with HTML, Tailwind CSS, and JavaScript. It handles basic arithmetic operations with live results, a clean responsive UI, and error handling for cases like division by zero or invalid input.
 <a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
@@ -23,7 +21,7 @@ SnapSolver is a real-time calculator built with HTML, Tailwind CSS, and JavaScri
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [SnapSolver Calculator] <a name="About-SnapSolver Calculator"></a>
- SnapSolver Calculator is a modern, real-time calculator built using HTML, Tailwind CSS, and vanilla JavaScript. It supports basic arithmetic operations (addition, subtraction, multiplication, division) with instant calculation on button click. The sleek and responsive UI ensures a smooth user experience across all devices. Special care is taken to handle edge cases like division by zero and invalid input formats. Ideal for learning DOM manipulation, event handling, and UI design.
+ SnapSolver Calculator is a modern, real-time calculator built using HTML, Tailwind CSS, and vanilla JavaScript. It supports basic arithmetic operations (addition, subtraction, multiplication, division) with instant calculation on button click and error handling for cases like division by zero or invalid input. The sleek and responsive UI ensures a smooth user experience across all devices. Special care is taken to handle edge cases like division by zero and invalid input formats. Ideal for learning DOM manipulation, event handling, and UI design. 
 
 ## 🛠 Built With <a name="built-with">
 #Tech Stack
